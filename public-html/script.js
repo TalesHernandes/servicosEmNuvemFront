@@ -12,7 +12,7 @@ checkButton.addEventListener('click', async () => {
     }
 
     try {
-        const response = await fetch(`http://localhost:8081/${name}`, {
+        const response = await fetch(`http://10.0.138.205:25000/${name}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
